@@ -117,6 +117,7 @@
       "text": "Missing",
       "comment": "Default label used inside of charts for documents missing a specific field.\n          Can be seen when creating a chart with a terms aggregation and select the \"Show missing values\"\n          checkbox."
     },
+
     "common.ui.aggTypes.buckets.terms.orderAscendingTitle": "Ascending",
     "common.ui.aggTypes.buckets.terms.orderDescendingTitle": "Descending",
     "common.ui.aggTypes.buckets.terms.otherBucketDescription": "This request counts the number of documents that fall outside the criterion of the data buckets.",
@@ -132,6 +133,7 @@
       "text": "From",
       "comment": "Describes the beginning of a date range, e.g. *From* 2018-02-26 To 2018-02-28"
     },
+
     "common.ui.aggTypes.dateRanges.noCompatibleFieldsDescription": "The {indexPatternTitle} index pattern does not contain any of the following field types:",
     "common.ui.aggTypes.dateRanges.noCompatibleFieldsLabel": "No Compatible Fields:",
     "common.ui.aggTypes.dateRanges.removeRangeButtonAriaLabel": "Remove this range",
@@ -141,6 +143,7 @@
       "text": "To",
       "comment": "Describes the end of a date range, e.g. From 2018-02-26 *To* 2018-02-28"
     },
+
     "common.ui.aggTypes.definiteMetricLabel": "metric: {safeMakeLabel}",
     "common.ui.aggTypes.dropPartialBucketsLabel": "Drop partial buckets",
     "common.ui.aggTypes.dropPartialBucketsTooltip": "Remove buckets that span time outside the time range so the histogram doesn't start and end with incomplete buckets.",
@@ -158,6 +161,7 @@
       "text": "Filter {index} label",
       "comment": "'Filter {index}' represents the name of the filter as a noun, similar to 'label for filter 1'."
     },
+    
     "common.ui.aggTypes.filters.filterLabel": "Filter {index}",
     "common.ui.aggTypes.filters.filterPlaceholder": "Lucene or Query DSL",
     "common.ui.aggTypes.filters.labelPlaceholder": "Label",

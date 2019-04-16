@@ -93,8 +93,7 @@
     },    
     "common.ui.aggTypes.buckets.filtersTitle": "筛选",
     "common.ui.aggTypes.buckets.filterTitle": "筛选",
-    "common.ui.aggTypes.buckets.geohashGridTitle": "Geohash",
-    
+    "common.ui.aggTypes.buckets.geohashGridTitle": "Geohash",    
     "common.ui.aggTypes.buckets.histogramTitle": "直方图",
     "common.ui.aggTypes.buckets.intervalOptions.autoDisplayName": "自动",
     "common.ui.aggTypes.buckets.intervalOptions.customDisplayName": "定制",
@@ -118,7 +117,7 @@
       "text": "缺失",
       "comment": "缺少特定字段的文档在图表内使用的默认标签。\n    在创建带有术语聚合的图表时可以看到并选择\"显示缺失值\"复选框."
     },     
-    "common.ui.aggTypes.buckets.terms.missingBucketLabel": "缺失",
+    "common.ui.aggTypes.buckets.terms.missingBucketLabel": "缺失",    
     "common.ui.aggTypes.buckets.terms.orderAscendingTitle": "升序",
     "common.ui.aggTypes.buckets.terms.orderDescendingTitle": "降序",
     "common.ui.aggTypes.buckets.terms.otherBucketDescription": "此请求计算超出数据存储区标准的文档数.",    
@@ -252,6 +251,10 @@
     "common.ui.aggTypes.metrics.topHitTitle": "最高命中结果",
     "common.ui.aggTypes.metrics.uniqueCountLabel": "“{field}” 的唯一计数",
     "common.ui.aggTypes.metrics.uniqueCountTitle": "唯一计数",
+    "common.ui.aggTypes.metrics.wrongLastBucketTypeErrorMessage": {
+      "text": "当用 \"{type}\" 指标聚合时，上一存储桶聚合必须是 \"日期直方图\" 或 \"直方图\" !",
+      "comment": "不应转换日期直方图和直方图"
+    },    
     "common.ui.aggTypes.metrics.wrongLastBucketTypeErrorMessage": "使用 “{type}” 指标聚合时，上一存储桶聚合必须是“Date Histogram”或“Histogram”！",
     "common.ui.aggTypes.minimumIntervalLabel": "最小时间间隔",
     "common.ui.aggTypes.minimumIntervalTooltip": "提供的值创建的存储桶数目大于“高级设置”的 {histogramMaxBars} 指定的数目时，将自动缩放时间间隔",
@@ -276,6 +279,7 @@
     "common.ui.aggTypes.precisionLabel": "精确度",
     "common.ui.aggTypes.ranges.addRangeButtonLabel": "添加范围",
     "common.ui.aggTypes.ranges.fromColumnLabel": "从",
+    "common.ui.aggTypes.ranges.removeRangeButtonAriaLabel": "删除该范围",    
     "common.ui.aggTypes.ranges.requiredRangeDescription": "必须指定至少一个范围。",
     "common.ui.aggTypes.ranges.requiredRangeTitle": "必需：",
     "common.ui.aggTypes.ranges.toColumnLabel": "到",
@@ -296,6 +300,9 @@
     "common.ui.angularBootstrap.pagination.paginationConfig.lastLabel": "最后",
     "common.ui.angularBootstrap.pagination.paginationConfig.nextLabel": "下一个",
     "common.ui.angularBootstrap.pagination.paginationConfig.previousLabel": "上一个",
+    "common.ui.applyFilters.popupHeader": "选择筛选并应用",
+    "common.ui.applyFiltersPopup.cancelButtonLabel": "取消",
+    "common.ui.applyFiltersPopup.saveButtonLabel": "保存",    
     "common.ui.chrome.bigUrlWarningNotificationMessage": "在“{advancedSettingsLink}”启用“{storeInSessionStorageParam}”选项，或简化屏幕视觉效果。",
     "common.ui.chrome.bigUrlWarningNotificationMessage.advancedSettingsLinkText": "高级设置",
     "common.ui.chrome.bigUrlWarningNotificationTitle": "URL 过长，Kibana 可能无法工作",
