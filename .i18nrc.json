@@ -23,6 +23,8 @@
     "xpack.apm": "x-pack/plugins/apm",
     "xpack.beatsManagement": "x-pack/plugins/beats_management",
     "xpack.crossClusterReplication": "x-pack/plugins/cross_cluster_replication",
+    "xpack.canvas": "x-pack/plugins/canvas",
+    "xpack.canvas.canvas_plugin_src":"x-pack/plugins/canvas/canvas_plugin_src",   
     "xpack.dashboardMode": "x-pack/plugins/dashboard_mode",
     "xpack.graph": "x-pack/plugins/graph",
     "xpack.grokDebugger": "x-pack/plugins/grokdebugger",
@@ -47,6 +49,7 @@
     "xpack.watcher": "x-pack/plugins/watcher"
   },
   "exclude": [
+    "src/legacy/ui/public/vis/update_status.ts",
     "src/core/public/fatal_errors/get_error_info.ts",
     "src/legacy/ui/ui_render/bootstrap/app_bootstrap.js",
     "src/legacy/ui/ui_render/ui_render_mixin.js",
